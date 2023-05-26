@@ -21,8 +21,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
 
-          <form class="d-flex" style="margin-right: 160px" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <form role ="form" action="cari.php" method="get" class="d-flex" style="margin-right: 160px" role="search"> 
+            <input class="form-control me-2" type="search" name="keyword" placeholder="Search" aria-label="Search" required>
             <button class="btn btn-outline-light" type="submit">Search</button>
           </form>
 
